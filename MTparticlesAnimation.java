@@ -32,7 +32,7 @@ public class MTparticlesAnimation extends JFrame{
         buttons[1]=(JButton)(bpanel.add(new JButton("Add")));
         buttons[2]=(JButton)(bpanel.add(new JButton("Clear")));
         speed =(JSlider)(bpanel.add(new JSlider(JSlider.HORIZONTAL,1, 10, 5)));
-        //overwritten buttons / slider event actions 
+        //overwritten buttons / slider event actions  
         buttons[0].addActionListener((ActionEvent ae) -> {
             apanel.switchPause();
         });
